@@ -1,0 +1,13 @@
+extends ../layout/layout.pug
+block content 
+    h1 Gerentes 
+block content
+    section(class="data")  
+        each val in listaGerentes
+            div(class="w-full max-w-sm bg-white border  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700")
+                div(class="flex flex-col items-center pb-10 pt-10")
+                    img(class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://picsum.photos/100/100" alt="Bonnie image")
+                    h4(class="mb-1 text-xl font-medium text-gray-900 dark:text-white") #{val.nombre}
+                    h5(class="text-1 text-gray-500 dark:text-white") #{val.ap_paterno}
+                    h5(class="text-1 text-gray-500 dark:text-white") #{val.ap_materno}
+                    h5(class="text-1 text-gray-500 dark:text-white") #{val.telefono}

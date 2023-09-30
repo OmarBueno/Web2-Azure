@@ -1,0 +1,34 @@
+{
+  "name": "nodejs_express",
+  "version": "1.0.0",
+  "description": "Inicio de Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "server": "nodemon index.mjs",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "keywords": [
+    "express",
+    "pug",
+    "mvc"
+  ],
+  "author": "Omar Bueno",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jquery": "^3.7.1",
+    "mysql2": "^3.6.1",
+    "pug": "^3.0.2",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0"
+  }
+}

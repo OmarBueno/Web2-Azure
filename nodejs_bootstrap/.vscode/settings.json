@@ -1,0 +1,8 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e2003cd5-a9d5-4d55-b5e1-e4a4c9c8e825/resourceGroups/Web2/providers/Microsoft.Web/sites/MikeWeb2",
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
